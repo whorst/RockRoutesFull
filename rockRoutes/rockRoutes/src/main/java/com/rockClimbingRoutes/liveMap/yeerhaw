@@ -1,0 +1,1 @@
+L.marker([00.51, -0.09]).addTo(mymap);

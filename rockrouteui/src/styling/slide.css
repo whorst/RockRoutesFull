@@ -1,0 +1,34 @@
+#navbar {
+  transition: transform 400ms ease-in;
+  min-width: 100px;
+  height: 100%;
+  color: black;
+  background-color: "white";
+  font-family: sans-serif;
+}
+
+#navbar.slideIn {
+  transform: translateX(100%);
+}
+
+#navbar.slideOut {
+  transform: translateX(0);
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#parent {
+  width: 99%;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+    flex-direction: column;
+}
+.outerParent {
+}
